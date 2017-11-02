@@ -1,1 +1,103 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./static/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
+    <link rel="stylesheet" href="./static/lib/css/dc.css">
+    <link rel="stylesheet" href="./static/css/custom.css">
+
+</head>
+<body class="application">
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="./">3W-Dashboard Ethiopia</a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+
+    <div class="row row-eq-height">
+
+        <!-- Who Row -->
+        <div class="col-md-6">
+            <div class="chart-wrapper">
+                <div class="chart-title">
+                    WHO
+                </div>
+                <div class="chart-stage">
+                    <div id="who-chart"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Who Row -->
+
+        <!-- What Row -->
+        <div class="col-md-6">
+            <div class="chart-wrapper">
+                <div class="chart-title">
+                    WHAT
+                </div>
+                <div class="chart-stage">
+                    <div id="what-chart"></div>
+                </div>
+            </div>
+        </div>
+        <!-- What Row -->
+    </div>
+
+
+    <div class="row row-eq-height">
+        <!-- Map -->
+        <div class="col-md-6">
+            <div class="chart-wrapper">
+                <div class="chart-title">
+                    WHERE
+                </div>
+                <div class="chart-stage">
+                    <div id="where-chart"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Map -->
+
+        <!-- Status Pie -->
+        <div class="col-md-6">
+            <div class="chart-wrapper">
+                <div class="chart-title">
+                    Status of Projects
+                </div>
+                <div class="chart-stage">
+                    <div id="status-chart"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Status Pie -->
+
+    </div>
+
+    <hr>
+    <p class="small text-muted">Made by <a href="https://www.linkedin.com/in/paul-spende/">Paul Spende</a> & <a
+            href="http://toladata.com/">TolaData</a></p>
+    <p class="small text-muted">Dataset: <a
+            href="https://www.data.humdata.org/dataset/ethiopia-3w-operational-presence-august-2017">Ethiopia - 3W
+        Operational Presence August 2017</a></p>
+
+</div>
+
+<script src="./static/lib/js/jquery.min.js"></script>
+<script src="./static/lib/js/tether.min.js"></script>
+<script src="./static/lib/js/bootstrap.min.js"></script>
+<script src="./static/lib/js/crossfilter.js"></script>
+<script src="./static/lib/js/d3.js"></script>
+<script src="./static/lib/js/dc.js"></script>
+<script src="./static/lib/js/queue.js"></script>
+
+
+<script src="./static/lib/js/keen.min.js"></script>
+<script src='./static/js/graphs.js' type='text/javascript'></script>
+</body>
+</html>
